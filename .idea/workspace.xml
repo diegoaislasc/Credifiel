@@ -1,32 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aee3893-4e8b-4500-bc36-21f79b06559e" name="Changes" comment="" />
+    <list default="true" id="3aee3893-4e8b-4500-bc36-21f79b06559e" name="Changes" comment="feat: crear modelos int">
+      <change afterPath="$PROJECT_DIR$/models/marts/mart_analisis_respuestas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/marts/mart_comportamiento_clientes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/marts/mart_efectividad_bancos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/marts/mart_maximizacion_cobranza.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/marts/mart_optimizacion_costos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src_source.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/src_source.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_cat_banco.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_cat_banco.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_cat_emisora.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_cat_emisora.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_cat_respuesta_bancos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_cat_respuesta_bancos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_lista_cobro.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_lista_cobro.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2022.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2022.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2023.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2023.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2024.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2024.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2025.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_lista_cobro_detalle_2025.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_lista_cobro_emisora.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_lista_cobro_emisora.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staging/stg_tabla_maestra_completa.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/staging/stg_tabla_maestra_completa.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SQL File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;diegoaislasc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/diegoaislasc/Credifiel.git&quot;,
+    &quot;accountId&quot;: &quot;f962d6e7-51ce-4a51-b931-f2e3db1037db&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2xZ3WqJWhUTBw3o8vaoKO3v1MXh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dbt.Run dbt build.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.Run dbt run.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: int_cobros_consolidados.sql.executor&quot;: &quot;Run&quot;,
+    &quot;dbt.run: int_cobros_enriquecidos.sql.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.dbt.settings.DbtProjectConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;duckdb&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\Credifiel\models\marts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="dbt.Run dbt run">
+    <configuration name="Run dbt build" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="build" />
+      <module name="Credifiel" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt debug" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="debug" />
+      <module name="Credifiel" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt list" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="list" />
+      <module name="Credifiel" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="run" />
+      <module name="Credifiel" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt test" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="test" />
+      <module name="Credifiel" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +130,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748131803316</updated>
-      <workItem from="1748131804628" duration="13000" />
+      <workItem from="1748131804628" duration="3913000" />
+      <workItem from="1748136307413" duration="2288000" />
+      <workItem from="1748140301092" duration="5044000" />
+      <workItem from="1748146250833" duration="1088000" />
+      <workItem from="1748147350540" duration="13000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: crear modelos int">
+      <option name="closed" value="true" />
+      <created>1748143169201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748143169202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: crear modelos int" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: crear modelos int" />
   </component>
 </project>

@@ -1,0 +1,87 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Fuentes crudas desde archivos CSV de Credifiel"
+    schema: ''
+    tables:
+      - name: cat_banco
+        description: "Catálogo de bancos disponibles"
+        external:
+          location: "data/CatBanco.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: cat_emisora
+        description: "Catálogo de emisoras"
+        external:
+          location: "data/CatEmisora.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: cat_respuesta_barcos
+        description: "Catálogo de respuestas del sistema Barcos"
+        external:
+          location: "data/CatRespuestaBarcos.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: lista_cobro
+        description: "Lista principal de cobros"
+        external:
+          location: "data/ListaCobro.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: lista_cobro_emisora
+        description: "Detalle de cobros relacionados a emisoras"
+        external:
+          location: "data/ListaCobroEmisora.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: lista_cobro_detalle_2022
+        description: "Detalle de cobros realizados en el año 2022"
+        external:
+          location: "data/ListaCobroDetalle2022.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: lista_cobro_detalle_2023
+        description: "Detalle de cobros realizados en el año 2023"
+        external:
+          location: "data/ListaCobroDetalle2023.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: lista_cobro_detalle_2024
+        description: "Detalle de cobros realizados en el año 2024"
+        external:
+          location: "data/ListaCobroDetalle2024.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
+
+      - name: lista_cobro_detalle_2025
+        description: "Detalle de cobros realizados en el año 2025"
+        external:
+          location: "data/ListaCobroDetalle2025.csv"
+          format: csv
+          options:
+            header: true
+            auto_detect: true
